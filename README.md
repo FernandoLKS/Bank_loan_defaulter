@@ -1,13 +1,17 @@
-# 📊 Bank Marketing Campaign Analysis
+# 📊 Análise de Campanha de Marketing Bancário (Bank Marketing Campaign Analysis)
 
 Este projeto tem como objetivo **identificar os clientes mais propensos a aceitar uma oferta de marketing** e **maximizar o lucro esperado** do banco.
 
 ## Estrutura do Projeto
 
 Bank_loan_defaulter/
+
 │
+
 ├─ Files/Bank_Personal_Loan_Data.csv    # Dados brutos extraídos de https://www.kaggle.com/datasets/ahmadrafiee/bank-personal-loan/data
+
 ├─ Bank_Personal_Loan.ipynb             # Notebook contendo toda a análise e predição dos dados
+
 └─ README.md                            
 
 ## Objetivo
