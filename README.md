@@ -4,15 +4,13 @@ Este projeto tem como objetivo **identificar os clientes mais propensos a aceita
 
 ## Estrutura do Projeto
 
+```plaintext
 Bank_loan_defaulter/
-
 │
-
 ├─ Files/Bank_Personal_Loan_Data.csv    # Dados brutos extraídos de https://www.kaggle.com/datasets/ahmadrafiee/bank-personal-loan/data
-
 ├─ Bank_Personal_Loan.ipynb             # Notebook contendo toda a análise e predição dos dados
-
-└─ README.md                            
+└─ README.md
+```  
 
 ## Objetivo
 
