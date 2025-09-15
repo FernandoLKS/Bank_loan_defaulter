@@ -7,9 +7,16 @@ Este projeto tem como objetivo **identificar os clientes mais propensos a aceita
 ```plaintext
 Bank_loan_defaulter/
 │
-├─ Data/Bank_Personal_Loan_Data.csv     # Dados brutos extraídos de https://www.kaggle.com/datasets/ahmadrafiee/bank-personal-loan/data
-├─ Bank_Personal_Loan.ipynb             # Notebook contendo toda a análise e predição dos dados
-├─ Dashboard.pbix                       # Dashboard Power BI para estudo dos dados
+├─ dashboards/
+│   └─ Dashboard.pbix                   # Dashboard Power BI para estudo dos dados
+├─ data/
+│   ├─ raw_data.csv                     # Dados brutos extraídos de Kaggle
+│   └─ modified_data.csv                # Dados processados e modificados para análise
+├─ models/
+│   └─ model.pkl                        # Pipeline com o modelo de melhor desempenho
+├─ notebooks/
+│   ├─ 01_Data_Extraction_Analysis.ipynb  # Notebook de exploração e análise dos dados
+│   └─ 02_Models.ipynb                  # Treinamento e avaliação dos modelos
 ├─ environment.yml                      # Ambiente Conda para reprodução
 └─ README.md
 ```  
