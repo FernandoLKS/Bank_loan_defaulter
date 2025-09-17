@@ -7,18 +7,22 @@ Este projeto tem como objetivo **identificar os clientes mais propensos a aceita
 ```plaintext
 Bank_loan_defaulter/
 │
-├─ dashboards/
+├─ Dashboard/
 │   └─ Dashboard.pbix                   # Dashboard Power BI para estudo dos dados
-├─ data/
+├─ Data/
 │   ├─ raw_data.csv                     # Dados brutos extraídos de Kaggle
 │   └─ modified_data.csv                # Dados processados e modificados para análise
-├─ models/
+├─ Model/
 │   └─ model.pkl                        # Pipeline com o modelo de melhor desempenho
-├─ notebooks/
+├─ Notebooks/
 │   ├─ 01_Data_Extraction_Analysis.ipynb  # Notebook de exploração e análise dos dados
 │   └─ 02_Models.ipynb                  # Treinamento e avaliação dos modelos
-├─ environment.yml                      # Ambiente Conda para reprodução
-└─ README.md
+├─ Web_Deploy/
+│   ├─ Backend/                          # API FastAPI para servir o modelo
+│   └─ Frontend/                         # Interface web para inserir dados e receber predição
+├─ .gitignore                            
+├─ environment.yml                        # Ambiente Conda para reprodução
+└─ README.md                             # Documentação do projeto
 ```  
 
 ## Objetivo
