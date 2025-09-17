@@ -92,3 +92,11 @@ A abordagem utilizada foi:
    - Lucro final = Ganho bruto - Custo total  
 
 Este caso demonstra como o modelo pode **direcionar as campanhas de marketing**, priorizando clientes que oferecem maior retorno, e mostrando na prática a utilidade do **Expected Profit** como métrica de negócio.
+
+## API (Web Deploy)
+
+![Interface da aplicação](Images/Deploy.png)
+
+Esta API permite realizar predições de propensão de clientes a contratar produtos financeiros do banco **UniversalBank**, com base em informações como idade, renda, histórico de crédito e outros dados financeiros.
+
+O backend foi desenvolvido em **FastAPI**, e o frontend é uma interface simples em **HTML/JavaScript** para facilitar testes manuais. O modelo de machine learning utilizado foi treinado previamente e armazenado como um pipeline serializado (`model.pkl`).

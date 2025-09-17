@@ -2,10 +2,10 @@ from pydantic import BaseModel
 
 class ClientData(BaseModel):
     Age: int
-    Income: int
+    Income: float
     Family: int
     CCAvg: float
-    Mortgage: int
+    Mortgage: float
     Education: int
     SecuritiesAccount: int
     CDAccount: int
