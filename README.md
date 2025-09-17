@@ -96,9 +96,12 @@ Este caso demonstra como o modelo pode **direcionar as campanhas de marketing**,
 ## API (Web Deploy)
 
 Cliente Propício a receber a oferta.
-![Interface da aplicação](Images/Deploy.png)
+
+![Interface da aplicação](Images/Aceito.png)
+
 Cliente Não Propício a receber a oferta.
-![Interface da aplicação](Images/Deploy_2.png)
+
+![Interface da aplicação](Images/Negado.png)
 
 Esta API permite realizar predições de propensão de clientes a contratar produtos financeiros do banco **UniversalBank**, com base em informações como idade, renda, histórico de crédito e outros dados financeiros.
 
