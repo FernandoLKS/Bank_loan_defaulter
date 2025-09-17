@@ -96,6 +96,7 @@ Este caso demonstra como o modelo pode **direcionar as campanhas de marketing**,
 ## API (Web Deploy)
 
 ![Interface da aplicação](Images/Deploy.png)
+![Interface da aplicação](Images/Deploy_2.png)
 
 Esta API permite realizar predições de propensão de clientes a contratar produtos financeiros do banco **UniversalBank**, com base em informações como idade, renda, histórico de crédito e outros dados financeiros.
 
