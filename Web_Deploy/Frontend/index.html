@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predição de Propensão</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Propensão do Cliente</h1>
+
+    <form id="predictForm">
+        <label>Idade:</label>
+        <input type="number" id="Age" required>
+
+        <label>Renda Anual (em mil dólares, ex: 100 = $100.000):</label>
+        <input type="number" id="Income" required>
+
+        <label>Quantidade de membros na família:</label>
+        <input type="number" id="Family" required>
+
+        <label>Média de gastos mensais no cartão de crédito:</label>
+        <input type="number" step="0.01" id="CCAvg" required>
+
+        <label>Nível educacional (1 = Graduação, 2 = Pós-graduação, 3 = Avançado):</label>
+        <input type="number" id="Education" min="1" max="3" required>
+
+        <label>Valor do financiamento da casa (se houver, em dólares):</label>
+        <input type="number" id="Mortgage" required>
+
+        <label>Possui conta de valores mobiliários?</label>
+        <input type="number" id="Securities" min="0" max="1" required>
+
+        <label>Possui conta de Certificado de Depósito (CD)?</label>
+        <input type="number" id="CD" min="0" max="1" required>
+
+        <label>Utiliza serviços de Internet Banking?</label>
+        <input type="number" id="Online" min="0" max="1" required>
+
+        <label>Possui cartão de crédito emitido pelo UniversalBank?</label>
+        <input type="number" id="CreditCard" min="0" max="1" required>
+
+        <button type="submit">Rodar Predição</button>
+    </form>
+
+    <h2>Resultado:</h2>
+    <p id="output"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

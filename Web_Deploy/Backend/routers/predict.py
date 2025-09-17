@@ -7,4 +7,4 @@ router = APIRouter()
 @router.post("/predict")
 def predict(data: ClientData):
     resultado = predict_client(data, threshold=0.68)
-    return {"Propício a aceitar a oferta?": bool(resultado)}
+    return {"propicio": bool(resultado)}
