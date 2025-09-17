@@ -1,0 +1,3 @@
+Web_Deploy/venv/
+**/__pycache__/
+*.pyc
